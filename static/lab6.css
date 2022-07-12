@@ -1,0 +1,118 @@
+/*changes the background color of the body and the font*/
+body{
+    /* Sets the destiny.jpg as the background
+    of the webpage, puts it in the center with no
+    repeats as well as contain the whole image*/
+    background: url("destiny.jpg") no-repeat center;
+    background-size: contain;
+    font-family: Jokerman;
+}
+/* Changes color of heading 1 */
+h1 {
+    color: red;
+}
+
+/* Changes font of ordered list */
+ol{
+    font-family: "Corbel Light";
+}
+
+/* Changes font style of unordered lists */
+ul{
+    font-family: "Blackadder ITC";
+}
+
+/* Changes color of heading 2 */
+h2{
+    color: blueviolet;
+}
+
+/* Changes color of heading 3 */
+h3{
+    color: deeppink;
+}
+
+/* Changes color of the a tag for hyper reference to links
+ and underlines the links*/
+a{
+    color: chartreuse;
+    text-decoration: underline;
+
+}
+
+/* Changes the font style and color of
+ paragraph tags*/
+p{
+    font-style: italic;
+    color: navy;
+}
+
+/* Changes color and font style of all list items */
+li{
+    font-style: oblique;
+    color: chocolate;
+}
+
+/* Calls the class zelda for the image
+and sets the size and float as well as the
+margin between text on the right
+ */
+.zelda{
+    width: 160px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+/* Calls the class warcraft for the image
+and sets the size and float as well as the
+margin between text on the right
+ */
+.warcraft{
+    width: 160px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+/* Calls the class xbox for the image
+and sets the size and float as well as the
+margin between text on the right
+ */
+.xbox{
+    width: 110px;
+    float: left;
+    margin-right: 15px;
+}
+
+/* Sets padding sizes/creates borders for table
+as well as sets the postion to the top right
+with absolute
+ */
+table{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* Sets borders the same as the base table
+so things look the same
+ */
+th{
+    position: relative;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Sets borders the same as the base table
+so things look the same
+ */
+td{
+    position: relative;
+    padding: 10px;
+    border: 1px solid black;
+}
+

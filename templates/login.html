@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <!-- Creates boxes/fields for users
+    to click and enter inputs -->
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        {{ form.username }}
+        {{ form.password }}
+        {{ form.submit }}
+    </form>
+    <!--Gives a link to register if user
+    does not have an account -->
+    <a href="{{ url_for('register') }}"> Would ya like to make an account?!</a>
+
+</body>
+
+</html>
